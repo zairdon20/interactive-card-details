@@ -15,6 +15,26 @@
   </style>
 </head>
 <body>
+  <header>
+    <img src="images\bg-main-desktop.png" alt="card image">
+  </header>
+  <main>
+    <form>
+      <label>CARDHOLDER NAME</label>
+      <input type="text" placeholder="e.g Josphat Nkonde" name="Cardholdername" id="cname" >
+      <label>CARD NUMBER</label>
+      <input type="number" placeholder="e.g 1112 3436 3647 2638" name="Cardnumber" id="cnumber" maxlength="16" size="16" >
+      <div>
+        <label>EXP. DATE (MM/YY)</label>
+        <input type="text" name="month" placeholder="MM" maxlength="2" size="2" />
+        <span>/</span>
+        <input type="text" name="year" placeholder="YY" maxlength="2" size="2" />
+        <label>CVC</label>
+        <input type="number" placeholder="e.g 123" name="cvc" id="cvc" maxlength="3" size="3" >
+      </div>
+      <button>Confirm</button>
+    </form>
+  </main>
 
   0000 0000 0000 0000
   Jane Appleseed
